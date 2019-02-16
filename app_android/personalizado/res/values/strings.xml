@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<resources>
+        <string name="app_name">tv_nome</string>
+	    <string name="app_version">numero_versao</string>
+        <string name="text_exception">Erro</string>
+        <string name="text_revision">$Revision: 21 $</string>
+</resources>

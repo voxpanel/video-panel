@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+        <item android:id="@+id/reload"  android:title="Recarregar" android:icon="@drawable/reload" ></item>
+        <item android:id="@+id/exit"  android:title="Sair" android:icon="@drawable/power" ></item>
+</menu>

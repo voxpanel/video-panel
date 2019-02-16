@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+<link href="http://vjs.zencdn.net/5.8.0/video-js.css" rel="stylesheet">
+<style>body{background-color:#000000;margin:0px auto;overflow:hidden;}.video-js .vjs-time-control{display: none;}.video-js .vjs-progress-control{display: none;}.video-js .vjs-fullscreen-control{display: none;}</style>
+</head>
+<body>
+<video id="player_webtv" class="video-js" autoplay controls preload="auto" width="600" height="360" data-setup="{ 'aspectRatio':'16:9' }">
+   <source src="rtmp://SERVIDOR/LOGIN/LOGIN" type="rtmp/mp4">
+   <source src="http://SERVIDOR/LOGIN/LOGIN/playlist.m3u8" type="application/x-mpegURL">
+</video>
+<script src="http://vjs.zencdn.net/5.8.0/video.js"></script>
+<script>var myPlayer=videojs('player_webtv',{},function(){var player=this;player.on("pause",function(){player.one("play",function(){player.load();player.play();});});})</script>
+<br />
+<br />
+</body>
+</html>
